@@ -1,15 +1,12 @@
-#include<iostream>
-#include<locale.h>
-using namespace std;
-int main () {
-
-double num,dobro;
-
-setlocale(LC_ALL, "portuguese");
-cout<<"Digite um número"<<endl;
+int main() {
+int num;
+int dobro;
+cout<<"digite um numero: ";
 cin>>num;
 dobro=num*2;
-cout<<"O dobro é: "<<endl<<dobro;
+cout<<"o dobro é: ";
+cout<<dobro;
+		
 	
 	
 }
